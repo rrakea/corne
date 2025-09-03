@@ -34,10 +34,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &none          &kp RA(Q)   &kp RA(N8)  &kp RA(N9)         &kp GRAVE     &kp EXCLAMATION   &kp LESS_THAN     &kp GT            &kp MINUS      &kp LEFT_BRACKET  &trans
-&trans  &kp RA(MINUS)  &kp LS(N7)  &kp RA(N7)  &kp RA(N0)         &kp LS(N0)    &kp UNDER         &kp LS(NUMBER_8)  &kp LS(NUMBER_9)  &kp SEMICOLON  &kp SQT           &trans
-&trans  &kp BACKSLASH  &kp DOLLAR  &kp RA(LT)  &kp RA(BACKSLASH)  &none         &kp LS(NUMBER_6)  &kp PERCENT       &kp LS(NUMBER_2)  &kp PIPE       &none             &trans
-                                   &trans      &trans             &trans        &trans            &trans            &trans
+&trans  &none          &kp RA(Q)   &kp RA(N8)  &kp RA(N9)             &kp GRAVE     &kp EXCLAMATION   &kp NON_US_BACKSLASH  &kp LS(NON_US_BSLH)  &kp MINUS      &kp LEFT_BRACKET  &trans
+&trans  &kp RA(MINUS)  &kp LS(N7)  &kp RA(N7)  &kp RA(N0)             &kp LS(N0)    &kp UNDER         &kp LS(NUMBER_8)      &kp LS(NUMBER_9)     &kp SEMICOLON  &kp SQT           &trans
+&trans  &kp BACKSLASH  &kp DOLLAR  &kp RA(LT)  &kp RA(RIGHT_BRACKET)  &none         &kp LS(NUMBER_6)  &kp PERCENT           &kp LS(NUMBER_2)     &kp PIPE       &none             &trans
+                                   &trans      &trans                 &trans        &trans            &trans                &trans
             >;
         };
 
